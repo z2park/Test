@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.banner3 {
+  width: 100%;
+  height: 100%;
+  display: table;
+  background-color: #5067b0;
+}
+.circle {
+  width: 155px;
+  text-align: center;
+  color: #212d5d;
+  font-size: 20px;
+  float: left;
+}
+.o {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: red;
+  padding-left: 30px;
+}
+.bold {
+  font-weight: 600;
+  padding: 20px 0;
+}
+.light {
+  font-weight: 300;
+}
