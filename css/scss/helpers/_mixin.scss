@@ -9,9 +9,7 @@
 .btn1 {
   @include btn(red);
 }
-.btn2 {
-  @include btn(blue);
-}
+
 .btn3 {
   @include btn(green);
 }

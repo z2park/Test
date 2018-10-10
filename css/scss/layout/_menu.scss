@@ -1,0 +1,69 @@
+@charset "utf-8";
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+section {
+  height: 100%;
+}
+
+.layout {
+}
+.menu {
+  width: 15%;
+  padding: 0 10px;
+  float: left;
+  background-color: lightgray;
+}
+.menu1,
+.menu2,
+.menu3 {
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+}
+.menu1 li,
+.menu2 li,
+.menu3 li {
+  padding: 3px 0;
+}
+.content {
+  border: 1px solid lightgray;
+  float: left;
+  width: 85%;
+}
+.library {
+  width: 20%;
+  padding: 10px;
+  border: 1px solid lightgray;
+  float: left;
+  .library-in {
+    border: 5px solid lightgray;
+    padding: 200px 0;
+  }
+}
+.account {
+  width: 80%;
+  padding: 50px 0;
+  border: 5px solid lightgray;
+  float: left;
+  .account-email {
+    padding: 8px;
+    width: 170px;
+    outline: none;
+    font-size: 16px;
+  }
+}
+.search {
+  display: inline-block;
+  .btn,
+  .btn2 {
+    outline: none;
+    padding: 5px 10px;
+    display: inline-block;
+    width: 100px;
+  }
+  li {
+    padding-top: 5px;
+  }
+}
