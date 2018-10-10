@@ -35,27 +35,40 @@ section {
 .library {
   width: 20%;
   padding: 10px;
-  border: 1px solid lightgray;
+  border: 1px solid black;
   float: left;
   .library-in {
-    border: 5px solid lightgray;
+    background-color: #ebebeb;
     padding: 200px 0;
   }
 }
 .account {
   width: 80%;
-  padding: 50px 0;
-  border: 5px solid lightgray;
+  border: 1px solid black;
   float: left;
+  padding: 20px 0;
+  position: relative;
   .account-email {
     padding: 8px;
     width: 170px;
     outline: none;
     font-size: 16px;
+    border: 1px solid black;
+  }
+  .check-btn {
+    display: inline-block;
+    padding: 0 0 0 10px;
+  }
+  .input-name {
+    display: inline-block;
+    padding: 0 5px 0 10px;
   }
 }
 .search {
   display: inline-block;
+  position: absolute;
+  top: 5px;
+  right: 20px;
   .btn,
   .btn2 {
     outline: none;
@@ -68,7 +81,7 @@ section {
   }
 }
 .list {
-  background-color: lightgray;
+  border: 2px solid gray;
   height: 300px;
   width: 80%;
   float: right;

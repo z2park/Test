@@ -3,18 +3,22 @@
   border-bottom: 1px solid gray;
   padding: 20px 0;
   text-align: center;
+  .sky {
+    position: relative;
+  }
   .system {
-    border: 1px solid gray;
-    padding: 10px 50px 10px 10px;
     margin-left: 10px;
-    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
   h2 {
     font-size: 20px;
   }
   .email {
-    padding: 10px 0;
     margin-right: 10px;
-    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 }
